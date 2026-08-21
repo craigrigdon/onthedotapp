@@ -1,0 +1,22 @@
+<a class="skip" href="#content">Skip to content</a>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="{{ "/" | relative_url }}">
+      {% include app-icon.html name="onthedot" class="app-icon app-icon-nav" alt="" size="64" %}
+      <span>On The Dot</span>
+    </a>
+
+    <input type="checkbox" id="nav-open" class="nav-checkbox">
+    <label for="nav-open" class="nav-toggle" aria-label="Menu">
+      <span></span>
+    </label>
+
+    <nav class="nav" aria-label="Primary">
+      <a href="{{ "/privacy/" | relative_url }}" {% if page.url == "/privacy/" %}aria-current="page"{% endif %}>Privacy</a>
+      <a href="{{ "/support/" | relative_url }}" {% if page.url == "/support/" %}aria-current="page"{% endif %}>Support</a>
+      <a href="{{ "/aboutme/" | relative_url }}" {% if page.url == "/aboutme/" %}aria-current="page"{% endif %}>Developer</a>
+      <a href="{{ "/apps/" | relative_url }}" {% if page.url contains "/apps" %}aria-current="page"{% endif %}>Apps</a>
+    </nav>
+  </div>
+</header>

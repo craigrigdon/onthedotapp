@@ -1,8 +1,107 @@
 ---
-layout: page
-title: On The Dot App
-subtitle: Keeping the World On Time <br> <a href="https://apps.apple.com/ca/app/on-the-dot/id1439037132" target="_blank">More Info</a>
+layout: home
+title: On The Dot
+description: Leave on time. On The Dot watches travel time from where you are, then tells you when to go.
+permalink: /
 ---
 
+<section class="wrap hero">
+  <div>
+    <p class="eyebrow">iPhone app</p>
+    <h1>Leave on time<span class="dot"></span><br><em>Arrive on time.</em></h1>
+    <p class="lede">On The Dot tells you <strong>when to leave</strong> — not just when to arrive. It watches travel time from where you are, then reminds you to go.</p>
+    <div class="actions">
+      <a class="btn btn-primary" href="https://apps.apple.com/ca/app/on-the-dot/id1439037132">View on the App Store</a>
+      <a class="btn btn-ghost" href="{{ "/privacy/" | relative_url }}">Privacy</a>
+    </div>
+  </div>
+  <div class="clock" aria-hidden="true">
+    <span class="ring"></span>
+    <span class="ring"></span>
+    <span class="ring"></span>
+    <div class="clock-icon">
+      {% include app-icon.html name="onthedot" class="app-icon app-icon-hero" alt="" size="512" %}
+    </div>
+  </div>
+</section>
 
+<section class="wrap band">
+  <h2>What it does</h2>
+  <div class="cards">
+    <article class="card">
+      <h3>Missions</h3>
+      <p>Save a destination and an arrive-by time. On The Dot calculates leave time from live travel estimates.</p>
+    </article>
+    <article class="card">
+      <h3>Leave alerts</h3>
+      <p>Countdown notifications and optional Live Activities so you actually walk out the door.</p>
+    </article>
+    <article class="card">
+      <h3>Background location</h3>
+      <p>Departure times and ETAs stay current while you’re on the move — used for leave times, not ads.</p>
+    </article>
+    <article class="card">
+      <h3>Shared groups</h3>
+      <p>Invite family or teammates to the same missions. Sharing is opt-in; only people you invite see the group.</p>
+    </article>
+    <article class="card">
+      <h3>Traffic &amp; Back to Car</h3>
+      <p>A traffic recheck about 30 minutes before leave, plus a parked-car pin when you need to find the car again.</p>
+    </article>
+    <article class="card">
+      <h3>Widgets &amp; car apps</h3>
+      <p>Glance at leave time on the Home Screen, and send a destination to Tesla or Rivian when you choose to.</p>
+    </article>
+  </div>
+</section>
 
+<section class="wrap band">
+  <div class="split">
+    <div class="panel">
+      <p class="eyebrow">Free</p>
+      <h2>Missions for everyone</h2>
+      <p>Core missions, leave alerts, and group sharing are available to everyone. No account to create — you use your Apple ID.</p>
+    </div>
+    <div class="panel-soft">
+      <p class="eyebrow">Premium</p>
+      <h2>When the week is full</h2>
+      <p>Monthly, annual, or lifetime (with a trial on subscriptions). Purchases go through Apple. We never see your card number.</p>
+      <ul>
+        <li>Recurring missions</li>
+        <li>Calendar import</li>
+        <li>Smart departure &amp; on-device AI</li>
+        <li>Dashboard, heatmap, export</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="wrap band">
+  <div class="card trust">
+    <div>
+      <p class="eyebrow">Privacy</p>
+      <h2>Your data stays with you</h2>
+      <p>Missions sync with <strong>your iCloud account</strong>. We do not run a separate On The Dot server for your trips. Analytics and punctuality predictions are built on your device from your own history.</p>
+      <p style="margin-top:1rem"><a href="{{ "/privacy/" | relative_url }}">Read the privacy policy</a> · <a href="{{ "/support/" | relative_url }}">Get support</a></p>
+    </div>
+  </div>
+</section>
+
+<section class="wrap band">
+  <h2>Other apps</h2>
+  <div class="cards">
+    <a class="card card-app" href="{{ "/apps/ourbudget/" | relative_url }}">
+      {% include app-icon.html name="ourbudget" class="app-icon app-icon-sm" alt="" size="128" %}
+      <div>
+        <p class="eyebrow">OurBudget</p>
+        <h3>Household budgeting</h3>
+        <p>Solo use is free. Optional Household unlock shares one budget with people you invite. Numbers stay in your iCloud.</p>
+      </div>
+    </a>
+    <a class="card" href="{{ "/aboutme/" | relative_url }}">
+      <p class="eyebrow">Developer</p>
+      <h3>Why it exists</h3>
+      <p>Built by a dad who was tired of guessing traffic between drop-offs. The same idea: keep the family on time, and the data at home.</p>
+    </a>
+  </div>
+</section>

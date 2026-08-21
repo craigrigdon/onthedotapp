@@ -1,0 +1,7 @@
+{%- assign icon_alt = include.alt | default: "" -%}
+{%- assign icon_class = include.class | default: "app-icon" -%}
+{%- assign icon_size = include.size | default: "128" -%}
+<picture>
+  <source srcset="{{ "/assets/img/apps/" | append: include.name | append: "-dark.png" | relative_url }}" media="(prefers-color-scheme: dark)">
+  <img class="{{ icon_class }}" src="{{ "/assets/img/apps/" | append: include.name | append: ".png" | relative_url }}" width="{{ icon_size }}" height="{{ icon_size }}" alt="{{ icon_alt }}">
+</picture>

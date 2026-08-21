@@ -1,138 +1,192 @@
 ---
 layout: page
-title: Privacy
-subtitle: Privacy statement
+title: Privacy Policy
+subtitle: How On The Dot handles your information
+eyebrow: On The Dot
+description: On The Dot keeps missions under your Apple ID. We do not sell your data or run a separate trip server.
+permalink: /privacy/
 ---
 
-Privacy Policy
-On-The-Dot 
-Privacy Policy of https://www.onthedotapp.com
+**Effective date:** August 21, 2026  
+**App:** On The Dot  
+**Developer:** Craig Rigdon  
+**Website:** [https://www.onthedotapp.com](https://www.onthedotapp.com)  
+**Contact:** [support@onthedotapp.com](mailto:support@onthedotapp.com)
 
-Privacy Policy
+This Privacy Policy describes how On The Dot (“the App,” “we,” “us”) handles information when you use the iOS application and this website. By using the App or the site, you agree to this policy.
 
-Effective date: November 03, 2019
+## Contents
+{:.no_toc}
 
-On-The-Dot ("us", "we", or "our") operates the https://www.onthedotapp.com website and the On-The-Dot mobile application (the "Service").
+* TOC
+{:toc}
 
-This page informs you of our policies regarding the collection, use, and disclosure of personal data when you use our Service and the choices you have associated with that data. Our Privacy Policy for On-The-Dot is created with the help of the Free Privacy Policy Generator.
+## 1. Summary
 
-We use your data to provide and improve the Service. By using the Service, you agree to the collection and use of information in accordance with this policy. Unless otherwise defined in this Privacy Policy, terms used in this Privacy Policy have the same meanings as in our Terms and Conditions.
+On The Dot is a leave-on-time app. We designed it so that:
 
-Information Collection And Use
+- Your missions, groups, and punctuality history stay under **your Apple ID** and sync with **iCloud / CloudKit**.
+- We (the developer) **do not operate our own trip servers** that collect your locations, calendars, or mission history for advertising or resale.
+- **Leave-time analytics and AI predictions run on your device**, trained on your own history. That data is not uploaded to us for model training.
+- Sharing a group is **opt-in**. Only people you invite can see that group’s missions.
+- We do **not** sell your personal information and we do **not** use third-party advertising SDKs.
 
-We collect several different types of information for various purposes to provide and improve our Service to you.
+## 2. Information the App stores
 
-Types of Data Collected
+Depending on how you use On The Dot, the App may store:
 
-Personal Data
+### Missions and places you enter
 
-While using our Service, we may ask you to provide us with certain personally identifiable information that can be used to contact or identify you ("Personal Data"). Personally identifiable information may include, but is not limited to:
+- Mission titles, destinations, coordinates, arrive-by times, and transport mode
+- Optional extra stops
+- Saved / favorite locations
+- Recurring-mission settings (Premium)
+- Status such as departed, arrived, late, or expired
 
-Email address
+### Timing and on-device analytics
 
-Cookies and Usage Data
+- Estimated and actual travel times
+- Whether you arrived on time, and by how many minutes
+- Day-of-week and hour-of-day patterns used for your own insights
+- Streaks, achievements, and dashboard summaries (Premium)
 
-Usage Data
+These analytics live in the App (Core Data / iCloud under your Apple ID). They are **not** sent to a developer analytics product.
 
-We may also collect information that your browser sends whenever you visit our Service or when you access the Service by or through a mobile device ("Usage Data").
+### App preferences and product state
 
-This Usage Data may include information such as your computer's Internet Protocol address (e.g. IP address), browser type, browser version, the pages of our Service that you visit, the time and date of your visit, the time spent on those pages, unique device identifiers and other diagnostic data.
+- Notification sound and Focus / time-sensitive settings
+- Feature toggles (Back to Car, traffic recheck, morning brief, smart buffers)
+- Premium purchase / entitlement status via Apple StoreKit
+- Widget and Live Activity state on this device
 
-When you access the Service by or through a mobile device, this Usage Data may include information such as the type of mobile device you use, your mobile device unique ID, the IP address of your mobile device, your mobile operating system, the type of mobile Internet browser you use, unique device identifiers and other diagnostic data.
+### Sync and sharing metadata
 
-Tracking & Cookies Data
+- CloudKit share participation (owner / invitee) when you use groups
+- Display names or avatar data Apple provides for people in a share
+- Sync timestamps used to keep devices consistent
 
-We use cookies and similar tracking technologies to track the activity on our Service and hold certain information.
+We do not require a separate On The Dot username or password. Sign-in is through **Apple ID / iCloud**, provided by Apple.
 
-Cookies are files with small amount of data which may include an anonymous unique identifier. Cookies are sent to your browser from a website and stored on your device. Tracking technologies also used are beacons, tags, and scripts to collect and track information and to improve and analyze our Service.
+## 3. Permissions the App may use
 
-You can instruct your browser to refuse all cookies or to indicate when a cookie is being sent. However, if you do not accept cookies, you may not be able to use some portions of our Service.
+You can deny any permission. Features that need it will not work until you allow it.
 
-Examples of Cookies we use:
+### Location (When In Use and, if you allow it, Always)
 
-Session Cookies. We use Session Cookies to operate our Service.
+Location is core to the product. The App uses it to:
 
-Preference Cookies. We use Preference Cookies to remember your preferences and various settings.
+- Show where you are and calculate travel time / leave time
+- Refresh ETAs in the background
+- Monitor geofences around destinations so arrival can be detected
+- Remember a parking spot for **Back to Car**
+- Recheck traffic before you need to leave
 
-Security Cookies. We use Security Cookies for security purposes.
+Background location is used only to keep leave times accurate and to fire timely reminders — not to build a location profile for advertising.
 
-Use of Data
+### Motion
 
-On-The-Dot uses the collected data for various purposes:
+If you allow Motion & Fitness, the App can detect vehicle entry and exit to improve ETA and parking-related behavior.
 
-To provide and maintain the Service
+### Calendar (optional, Premium)
 
-To notify you about changes to our Service
+If you turn on calendar integration and grant access, On The Dot **reads** upcoming events (especially those with a location) so it can suggest or create missions. It does not sell calendar contents. You choose which calendars to use.
 
-To allow you to participate in interactive features of our Service when you choose to do so
+### Notifications, Live Activities, and widgets
 
-To provide customer care and support
+Local notifications, Live Activities, and widgets show leave times and mission status on your device. They are scheduled by the App; we do not send marketing push from our own servers.
 
-To provide analysis or valuable information so that we can improve the Service
+### Maps and routing
 
-To monitor the usage of the Service
+Travel estimates use **Apple MapKit / Apple Maps**. Apple may process origin, destination, and routing requests under Apple’s terms. We do not insert a third-party maps advertising SDK.
 
-To detect, prevent and address technical issues
+### Send to car (optional)
 
-Transfer Of Data
+If you choose **Send to Tesla** or **Send to Rivian**, the App hands the destination to that car app on your device. Those companies’ privacy policies apply once you share.
 
-Your information, including Personal Data, may be transferred to — and maintained on — computers located outside of your state, province, country or other governmental jurisdiction where the data protection laws may differ than those from your jurisdiction.
+## 4. Where your data lives
 
-If you are located outside Canada and choose to provide information to us, please note that we transfer the data, including Personal Data, to Canada and process it there.
+### On your device
 
-Your consent to this Privacy Policy followed by your submission of such information represents your agreement to that transfer.
+Missions, analytics, and settings are stored locally (including Core Data and, for some personal extras such as “only me” stops or AI buffers, on-device storage that is **not** copied into a shared CloudKit group).
 
-On-The-Dot will take all steps reasonably necessary to ensure that your data is treated securely and in accordance with this Privacy Policy and no transfer of your Personal Data will take place to an organization or a country unless there are adequate controls in place including the security of your data and other personal information.
+### In your iCloud (private database)
 
-Disclosure Of Data
+When iCloud is available, your data may sync across **your own devices signed into the same Apple ID**.
 
-Legal Requirements
+### Shared with people you invite (groups)
 
-On-The-Dot may disclose your Personal Data in the good faith belief that such action is necessary to:
+If you create or join a group, selected missions are shared through Apple CloudKit sharing so invitees can view and update that group. **You control who is invited.** People in the group can see shared mission details.
 
-To comply with a legal obligation
+Personal extras designed to stay on your device (for example extra stops or buffers that are “only me”) are not uploaded as part of the group share.
 
-To protect and defend the rights or property of On-The-Dot
+### This website
 
-To prevent or investigate possible wrongdoing in connection with the Service
+[onthedotapp.com](https://www.onthedotapp.com) is a static site hosted on GitHub Pages. It publishes support and privacy pages. We do not run a member login or a separate customer database on the site.
 
-To protect the personal safety of users of the Service or the public
+## 5. What we do *not* collect
 
-To protect against legal liability
+The developer of On The Dot does **not**:
 
-Security Of Data
+- Sell your personal, location, or calendar data
+- Use your missions for third-party advertising networks
+- Require a custom account on our servers
+- Independently host a copy of your trip history outside Apple’s CloudKit for our own analytics products
+- Train a cloud AI model on your missions
 
-The security of your data is important to us, but remember that no method of transmission over the Internet, or method of electronic storage is 100% secure. While we strive to use commercially acceptable means to protect your Personal Data, we cannot guarantee its absolute security.
+Crash or diagnostic data may be available to the developer only through **Apple’s standard tools** (for example App Store Connect analytics or crash reports) if you have chosen to share such data with Apple / developers in your device settings. Those systems are controlled by Apple’s privacy terms.
 
-Service Providers
+## 6. Purchases (Premium)
 
-We may employ third party companies and individuals to facilitate our Service ("Service Providers"), to provide the Service on our behalf, to perform Service-related services or to assist us in analyzing how our Service is used.
+Optional **On The Dot Premium** is offered as a monthly subscription, an annual subscription, or a lifetime (one-time) purchase. Subscriptions may include a free trial.
 
-These third parties have access to your Personal Data only to perform these tasks on our behalf and are obligated not to disclose or use it for any other purpose.
+- Payments are processed by **Apple**.
+- We do not receive your full payment card number.
+- Apple may provide us with purchase / entitlement status so the App can unlock Premium features.
+- If Apple Family Sharing is enabled for the subscription, members of your Apple Family may receive the **unlock entitlement** according to Apple’s rules. That is separate from being invited into a specific shared mission group.
 
-Links To Other Sites
+Manage or cancel subscriptions in your Apple ID settings / App Store subscriptions.
 
-Our Service may contain links to other sites that are not operated by us. If you click on a third party link, you will be directed to that third party's site. We strongly advise you to review the Privacy Policy of every site you visit.
+## 7. Children
 
-We have no control over and assume no responsibility for the content, privacy policies or practices of any third party sites or services.
+On The Dot is not directed at children under 13. Do not use the App to store information about children in a way that violates applicable law. If you believe we have inadvertently received such information through developer channels, contact us and we will help address it.
 
-Children's Privacy
+## 8. Your choices and controls
 
-Our Service does not address anyone under the age of 18 ("Children").
+You can:
 
-We do not knowingly collect personally identifiable information from anyone under the age of 18. If you are a parent or guardian and you are aware that your Children has provided us with Personal Data, please contact us. If we become aware that we have collected Personal Data from children without verification of parental consent, we take steps to remove that information from our servers.
+- Use the App without inviting others to a group
+- Decline Premium, calendar access, Motion, or Always location
+- Turn off Back to Car, traffic recheck, morning brief, and smart buffers in Settings
+- Delete history or all mission data from Settings
+- Leave or remove people from a shared group (where the App provides those actions)
+- Sign out of iCloud or manage iCloud storage in iOS Settings
+- Delete the App (local data is removed from the device; iCloud copies may remain until you delete them from iCloud according to Apple’s tools)
 
-Changes To This Privacy Policy
+## 9. Data security
 
-We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page.
+We rely on **Apple’s platform security** for on-device storage, iCloud, CloudKit sharing, MapKit, notifications, and App Store purchases. No method of electronic storage is 100% secure. Use a strong Apple ID password and Apple’s recommended account protections (such as two-factor authentication).
 
-We will let you know via email and/or a prominent notice on our Service, prior to the change becoming effective and update the "effective date" at the top of this Privacy Policy.
+## 10. Third parties
 
-You are advised to review this Privacy Policy periodically for any changes. Changes to this Privacy Policy are effective when they are posted on this page.
+Primary service providers involved in running the App:
 
-Contact Us
+- **Apple Inc.** — App Store, StoreKit, iCloud / CloudKit, MapKit, push / background delivery as configured, device OS permissions
+- **Tesla / Rivian** — only if you choose to send a destination to those apps
 
-If you have any questions about this Privacy Policy, please contact us:
+We do not integrate third-party ad SDKs for serving ads in On The Dot.
 
-By visiting this page on our website: https://www.onthedotapp.com
+## 11. International users
 
+Your data may be stored and processed by Apple in regions where Apple operates iCloud infrastructure. Use of the App is subject to Apple’s terms and your local laws.
+
+## 12. Changes to this policy
+
+We may update this Privacy Policy from time to time. The “Effective date” at the top will change when we do. Continued use of the App after an update means you accept the revised policy. Material changes may also be noted in the App Store “What’s New” notes when appropriate.
+
+## 13. Contact
+
+Questions about this policy: [support@onthedotapp.com](mailto:support@onthedotapp.com) or the [support page]({{ "/support/" | relative_url }}).
+
+## 14. Apple’s privacy labels
+
+Please also review the App Privacy details on the On The Dot App Store product page. Those labels summarize data types as configured in App Store Connect and should be read together with this policy.
