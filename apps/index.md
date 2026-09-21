@@ -19,7 +19,7 @@ permalink: /apps/
       {% include app-icon.html name="stillbroke" class="app-icon app-icon-sm" alt="" size="128" %}
       <div>
         <h3>Still Broke</h3>
-        <p>Solo use is free. Invite family with optional Household unlock. Your numbers stay in iCloud.</p>
+        <p>Solo use is free. Invite family with optional sharing. Your numbers stay in iCloud.</p>
       </div>
     </a>
   </div>

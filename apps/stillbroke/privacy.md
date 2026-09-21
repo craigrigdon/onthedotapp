@@ -24,9 +24,9 @@ This Privacy Policy describes how Still Broke (“the App,” “we,” “us”
 
 Still Broke is a household budgeting app. We designed it so that:
 
-- Your budget data stays in **your Apple iCloud account** (and, if you use Household sharing, in a **CloudKit share** with people you invite).
+- Your budget data stays in **your Apple iCloud account** (and, if you use sharing, in a **CloudKit share** with people you invite).
 - We (the developer) **do not operate our own budget servers** that collect your transactions, balances, or receipts for advertising or resale.
-- **Solo use is free.** Optional **Household unlock** is a one-time in-app purchase processed by Apple.
+- **Solo use is free.** Optional **sharing** is a one-time in-app purchase processed by Apple.
 - We do **not** sell your personal information.
 
 ## 2. Information the App stores
@@ -47,12 +47,12 @@ Depending on how you use Still Broke, the App may store:
 ### App preferences & product state
 
 - Settings such as last month key for rollover
-- Household trial start date (stored on device)
-- Purchase / entitlement status for Household unlock (via Apple StoreKit)
+- Sharing trial start date (stored on device)
+- Purchase / entitlement status for sharing (via Apple StoreKit)
 
 ### Sync & sharing metadata
 
-- CloudKit share participation (owner / invitee) when you use Household sharing
+- CloudKit share participation (owner / invitee) when you use sharing
 - Sync-related timestamps and revision fields used to keep devices consistent
 
 We do not require you to create a separate Still Broke account. Sign-in is through **Apple ID / iCloud**, provided by Apple.
@@ -67,9 +67,9 @@ Data is stored locally using Apple frameworks (including SwiftData).
 
 When iCloud is available, your data may sync across **your own devices signed into the same Apple ID** via Apple CloudKit.
 
-### Shared with people you invite (Household)
+### Shared with people you invite
 
-If you unlock Household (trial or purchase) and invite others, selected budget data is shared through Apple CloudKit sharing so invitees can view and edit the **same household budget**.
+If you turn on sharing (trial or purchase) and invite others, selected budget data is shared through Apple CloudKit so invitees can view and edit the **same household budget**.
 
 **You control who is invited.** People you invite can see and change shared budget information. Plans that are designed to stay private remain on your device / private store and are not uploaded as part of family share.
 
@@ -88,16 +88,16 @@ The developer of Still Broke does **not**:
 
 Crash or diagnostic data may be available to the developer only through **Apple’s standard tools** (for example App Store Connect analytics or crash reports) if you have chosen to share such data with Apple / developers in your device settings. Those systems are controlled by Apple’s privacy terms.
 
-## 5. Purchases (Household unlock)
+## 5. Purchases (Sharing)
 
-Optional **Household** unlock is a one-time In-App Purchase that enables inviting other Apple IDs to share and sync a budget.
+Optional **sharing** is a one-time In-App Purchase that enables inviting other Apple IDs to share and sync a budget.
 
 - Payments are processed by **Apple**.
 - We do not receive your full payment card number.
-- Apple may provide us with purchase/entitlement status (for example, whether Household is owned) so the App can unlock features.
+- Apple may provide us with purchase/entitlement status (for example, whether sharing is owned) so the App can unlock features.
 - If Apple Family Sharing is enabled for the In-App Purchase, members of your Apple Family may receive access to the **unlock entitlement** according to Apple’s rules. That is separate from being invited into a specific shared budget.
 
-A free trial of Household sharing may be offered in the App. Trial state is stored on your device.
+A free trial of sharing may be offered in the App. Trial state is stored on your device.
 
 ## 6. Photos & camera (receipts)
 
@@ -112,7 +112,7 @@ Still Broke is not directed at children under 13. Do not use the App to store in
 You can:
 
 - Use the App without inviting others (solo / same Apple ID)
-- Decline Household purchase or trial
+- Decline sharing purchase or trial
 - Remove participants or leave a shared budget (where the App provides those actions)
 - Export data (for example CSV) and delete month-end reports
 - Reset local budget data from Settings (this can also remove shared data for the family share after sync—use carefully)

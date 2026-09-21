@@ -2,11 +2,11 @@
 layout: page
 title: Still Broke
 subtitle: Household budgeting with a sense of humor
-description: Still Broke keeps household budgets in your iCloud account. Solo use is free; Household unlock is a one-time Apple purchase.
+description: Still Broke keeps household budgets in your iCloud account. Solo use is free; sharing is a one-time Apple purchase.
 permalink: /apps/stillbroke/
 ---
 
-Enter income, bills, and spending on iPhone. Solo use is free. Optional **Household unlock** (a one-time Apple In-App Purchase) lets you invite other Apple IDs to the same budget through iCloud sharing.
+Enter income, bills, and spending on iPhone. Solo use is free. Optional **sharing** (a one-time Apple In-App Purchase) lets you invite other Apple IDs to the same budget through iCloud.
 
 Your budget stays in **your Apple iCloud account**. We do not run a separate server that stores your transactions for ads or resale.
 
