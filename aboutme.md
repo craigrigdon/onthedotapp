@@ -17,6 +17,6 @@ He could not find that app, so he built it.
 
 What began as a tool for his own household turned out to be useful for anyone who has somewhere to be — one kid or four, one calendar or many. On The Dot is meant to take the guesswork out of leaving so you can stay organized and on time.
 
-He also makes [OurBudget]({{ "/apps/ourbudget/" | relative_url }}), a household budgeting app. Both products keep your data under your Apple ID.
+He also makes [Still Broke]({{ "/apps/stillbroke/" | relative_url }}), a household budgeting app. Both products keep your data under your Apple ID.
 
 [On The Dot on the App Store](https://apps.apple.com/ca/app/on-the-dot/id1439037132)

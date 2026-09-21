@@ -15,6 +15,6 @@ Please include:
 - Your iOS version and device
 - What you expected, and what happened
 
-Need OurBudget instead? Use [OurBudget support]({{ "/apps/ourbudget/support/" | relative_url }}).
+Need Still Broke instead? Use [Still Broke support]({{ "/apps/stillbroke/support/" | relative_url }}).
 
 [Privacy Policy]({{ "/privacy/" | relative_url }})

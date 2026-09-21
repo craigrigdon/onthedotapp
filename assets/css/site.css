@@ -34,16 +34,16 @@
 }
 
 .theme-budget {
-  --accent: #0f7a56;
-  --accent-ink: #f4f1ea;
-  --accent-soft: #d5eee4;
+  --accent: #5ea000;
+  --accent-ink: #161410;
+  --accent-soft: #e8f7b0;
 }
 
 @media (prefers-color-scheme: dark) {
   .theme-budget {
-    --accent: #3dcc9a;
-    --accent-ink: #0d1612;
-    --accent-soft: #16352b;
+    --accent: #c8ff3a;
+    --accent-ink: #12110e;
+    --accent-soft: #2a330f;
   }
 }
 

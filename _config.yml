@@ -19,11 +19,11 @@ defaults:
       layout: page
       theme: dot
   - scope:
-      path: "apps/ourbudget"
+      path: "apps/stillbroke"
     values:
       theme: budget
-      eyebrow: OurBudget
-      icon: ourbudget
+      eyebrow: Still Broke
+      icon: stillbroke
 
 exclude:
   - CHANGELOG.md

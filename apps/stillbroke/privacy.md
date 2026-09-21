@@ -1,18 +1,18 @@
 ---
 layout: page
 title: Privacy Policy
-subtitle: How OurBudget handles your information
-description: OurBudget stores household budgets in your iCloud account. We do not sell your financial data.
-permalink: /apps/ourbudget/privacy/
+subtitle: How Still Broke handles your information
+description: Still Broke stores household budgets in your iCloud account. We do not sell your financial data.
+permalink: /apps/stillbroke/privacy/
 ---
 
-**Effective date:** August 21, 2026  
-**App:** OurBudget  
+**Effective date:** September 20, 2026  
+**App:** Still Broke  
 **Developer:** Craig Rigdon  
-**Website:** [https://www.onthedotapp.com/apps/ourbudget/](https://www.onthedotapp.com/apps/ourbudget/)  
+**Website:** [https://www.onthedotapp.com/apps/stillbroke/](https://www.onthedotapp.com/apps/stillbroke/)  
 **Contact:** [support@onthedotapp.com](mailto:support@onthedotapp.com)
 
-This Privacy Policy describes how OurBudget (“the App,” “we,” “us”) handles information when you use the iOS application. By using OurBudget, you agree to this policy.
+This Privacy Policy describes how Still Broke (“the App,” “we,” “us”) handles information when you use the iOS application. By using Still Broke, you agree to this policy.
 
 ## Contents
 {:.no_toc}
@@ -22,7 +22,7 @@ This Privacy Policy describes how OurBudget (“the App,” “we,” “us”) 
 
 ## 1. Summary
 
-OurBudget is a household budgeting app. We designed it so that:
+Still Broke is a household budgeting app. We designed it so that:
 
 - Your budget data stays in **your Apple iCloud account** (and, if you use Household sharing, in a **CloudKit share** with people you invite).
 - We (the developer) **do not operate our own budget servers** that collect your transactions, balances, or receipts for advertising or resale.
@@ -31,7 +31,7 @@ OurBudget is a household budgeting app. We designed it so that:
 
 ## 2. Information the App stores
 
-Depending on how you use OurBudget, the App may store:
+Depending on how you use Still Broke, the App may store:
 
 ### Budget content you enter
 
@@ -55,7 +55,7 @@ Depending on how you use OurBudget, the App may store:
 - CloudKit share participation (owner / invitee) when you use Household sharing
 - Sync-related timestamps and revision fields used to keep devices consistent
 
-We do not require you to create a separate OurBudget account. Sign-in is through **Apple ID / iCloud**, provided by Apple.
+We do not require you to create a separate Still Broke account. Sign-in is through **Apple ID / iCloud**, provided by Apple.
 
 ## 3. Where your data lives
 
@@ -79,7 +79,7 @@ Variable spending transactions (and attached receipt images) from prior months m
 
 ## 4. What we do *not* collect
 
-The developer of OurBudget does **not**:
+The developer of Still Broke does **not**:
 
 - Sell your personal or financial data
 - Use your budget contents for third-party advertising networks
@@ -105,7 +105,7 @@ If you attach a receipt, the App may access the camera or photo library **only a
 
 ## 7. Children
 
-OurBudget is not directed at children under 13. Do not use the App to store information about children in a way that violates applicable law. If you believe we have inadvertently received such information through developer channels, contact us and we will help address it as appropriate.
+Still Broke is not directed at children under 13. Do not use the App to store information about children in a way that violates applicable law. If you believe we have inadvertently received such information through developer channels, contact us and we will help address it as appropriate.
 
 ## 8. Your choices & controls
 
@@ -129,7 +129,7 @@ Primary service providers involved in running the App:
 
 - **Apple Inc.** — App Store, StoreKit, iCloud / CloudKit, push/background delivery as configured, device OS permissions
 
-We do not integrate third-party ad SDKs for serving ads in OurBudget.
+We do not integrate third-party ad SDKs for serving ads in Still Broke.
 
 ## 11. International users
 
@@ -141,8 +141,8 @@ We may update this Privacy Policy from time to time. The “Effective date” at
 
 ## 13. Contact
 
-For privacy questions about OurBudget, email [support@onthedotapp.com](mailto:support@onthedotapp.com) or use the [OurBudget support page]({{ "/apps/ourbudget/support/" | relative_url }}).
+For privacy questions about Still Broke, email [support@onthedotapp.com](mailto:support@onthedotapp.com) or use the [Still Broke support page]({{ "/apps/stillbroke/support/" | relative_url }}).
 
 ## 14. Apple’s privacy labels
 
-Please also review the App Privacy details shown on the OurBudget App Store product page. Those labels summarize data types associated with the App as configured in App Store Connect and should be read together with this policy.
+Please also review the App Privacy details shown on the Still Broke App Store product page. Those labels summarize data types associated with the App as configured in App Store Connect and should be read together with this policy.
